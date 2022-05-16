@@ -50,5 +50,7 @@ p{
 - [Tham Khảo Ngày 1](./Web_Day01/)
 -
 
+### Thêm Ảnh Vào Readme.md
+![alt text](https://wiki.matbao.net/wp-content/uploads/2020/12/wordpress-hosting-mat-bao-so-1-viet-nam-desktop.png)
 ### Dùng Extension để push lên Github Desktop
 - GitLens
