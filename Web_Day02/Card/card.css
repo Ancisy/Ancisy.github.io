@@ -1,0 +1,63 @@
+/* Import Google Font Cách 1  */
+/* <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+</style> */
+
+/* Bước 1 trước khi code CSS thì nên đưa các thẻ về trạng thái ban đầu */
+* {
+    /* Khoảng cách từ border của các thẻ so với các thẻ khác */
+    margin: 0;
+    /* Khoảng cách từ nội dung tới border 
+    padding : 10px-> 4 chiều
+    padding : 10px 20px -> trên dưới 10, trái phải 20
+    padding : 10px 20px 30px 40px-> theo chiều kim đồng hồ trên 10, phải 20, dưới 30, trái 40
+    */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* google font */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Auto xuất hiện nếu trang web có ảnh */
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.card {
+    width: 320px;
+    /* Căn chỉnh phần từ block ra giữa */
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    font-size: 19px;
+    color: #464646;
+    font-weight: 400;
+}
+
+.type {
+    font-size: 14px;
+    color: #757575 font-weight 75px;
+    ;
+}
+
+.type {
+    margin: 14px 0px;
+}
+
+.vote span {
+    color: #ffd600;
+}

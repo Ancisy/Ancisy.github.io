@@ -1,0 +1,7 @@
+div.footer
+    div.footer.item (4 thẻ)
+        h2
+            ul
+                li->text
+                li->a
+                li->a

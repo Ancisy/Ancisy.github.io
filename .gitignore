@@ -1,0 +1,7 @@
+# Hiển thị những files không cần push lên github
+message.txt
+# ignore toàn bộ file có đuôi .txt
+*.txt
+# ignore file trong thư mục
+content\
+

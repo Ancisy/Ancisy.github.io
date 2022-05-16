@@ -47,5 +47,5 @@ p{
 3.https://www.w3schools.com/tags/ref_charactersets.asp
 
 ### Code Tham Khảo
-- [Ghi Tiêu Đề](./Web_Day01/)
+- [Tham Khảo Ngày 1](./Web_Day01/)
 -

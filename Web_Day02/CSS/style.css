@@ -1,0 +1,53 @@
+h2{
+    color: red;
+    
+}
+
+#h2_2{
+    color:aqua;
+}
+
+p{
+    color:blue;
+}
+
+.text{
+    color:brown;
+    background-color: aqua;
+}
+
+/* Càng chi tiết thì càng được ưu tiên */
+/* Đọc Từ Phải Qua Trái */
+.text1{
+    font-size: 40px;
+}
+
+.text.text1{
+    font-size: 26px;
+}
+/* chọn thẻ p có 2 class là text và text1 */
+p.text.text1{
+    font-size: 10px;
+}
+/* chọn thẻ p có class là text nằm trong thẻ có class là box*/
+.box p.text{
+    font-size: 50px;
+}
+
+h2, p{
+    text-align: center;
+}
+
+/* Chọn theo thẻ anh em đứng trước */
+#h2_2 + .box{
+    background-color: black;
+}
+
+/* Chọn nhiều thẻ theo thẻ anh em đứng trước */
+p ~ .text {
+    background-color: aliceblue;
+}
+
+#h2_2 ~ .box p{
+    background-color: red;
+}

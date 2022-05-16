@@ -1,0 +1,43 @@
+/* Import Roboto Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    text-align: center;
+    background-color: rgb(48, 89, 140);
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+    margin-bottom: 20px;   
+}
+
+h4,
+li,
+a {
+    color: rgb(255, 255, 255);
+}
+
+li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+li a {
+    text-decoration: none;
+}
