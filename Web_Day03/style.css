@@ -1,0 +1,48 @@
+:root {
+    /* Khi giá trị font-size mặc định của web thay đổi thì rem cũng thay đổi theo */
+    font-size: 14px;
+    /* Đặt biến cho các màu */
+    --color-text :#f54293;
+    --color-heading:#5d42f5;
+    --w : 100px;
+    --height : 50px;
+}
+
+.text {
+    /* set lại giá trị cho --color-text, chỉ áp dụng trong .text */
+    --color-text :#f5424b;
+    /* rem = font-size mặc định của trình duyệt là 16 */
+    font-size: 2rem;
+    color : var(--color-text);
+    width: var(--w);
+}
+
+.box {
+   
+    font-size: 18px;
+}
+
+.box p{
+     /* đơn vị em tham chiếu tới font-size của thẻ cha, còn đơn vị rem tham chiếu tới font mặc định */
+    font-size: 2em;
+}
+
+.parent {
+    /* Sử dụng công cụ tính toán để tính chiều cao và chiều dài */
+    width: calc(5*var(--w)+32px-30%);
+    height: calc(10*var(--height)+32px-15%);
+
+    /* Chiều dài theo màn hình nhìn thấy */
+    width: 50vw;
+    /* Chiều cao theo màn hình nhìn thấy */
+    height: 50vh;
+    background-color: red;
+    color: var(--color-heading);
+}
+
+.child {
+    /* Dựa trên kích thước của thẻ cha */
+    width: 100%;
+    height: 50%;
+    background-color: aquamarine;
+}
