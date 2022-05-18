@@ -31,6 +31,7 @@ body {
 
 div.class-year {
     background-color: rgb(239, 83, 33);
+    padding : 10px;
 }
 
 .class-datetime {
@@ -61,6 +62,9 @@ div.class-year {
 .class-info h2 a{
     text-decoration: none;
     color: rgb(70, 70, 70);
+}
+.class-info .class-title {
+    font-weight: 400;
 }
 
 /* Register */
