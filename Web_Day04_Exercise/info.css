@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info-course-container-fluid {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.back-button a {
+    display: inline-block;
+    padding: 14px 25px;
+    background-color: green;
+    text-decoration: none;
+}
+
+.info-course-item h3{
+    font-weight: 300;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.info-course-item li{
+    color: black;
+}
+
+.info-course {
+    width: 1320px;
+    margin:auto;
+    padding:3rem 15px;
+}
+
+.info-course-container {
+    padding:24px;
+    line-height: 24px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 35%);
+    border-radius: 5px;
+    margin:15px;
+}
+
+.info-course-item ul,ol{
+    padding-left: 40px; 
+}
+
+.info-course-item li {
+    list-style-type: disc;
+}
+
+.info-course-item ol li {
+    list-style-type: decimal;
+}
+
+.info-course-item p a{
+    color: blue;
+    text-decoration: none;
+}
+
+.info-course-container p,ul{
+    margin-bottom: 15px;
+}
+
+.info-course-container li{
+    margin-bottom: 8px;
+}
+
+.info-course-container{
+    width:100%;
+}
+
+h5{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin:35px 0px 20px;
+}
+
+h2{
+    font-size:1.5rem;
+    font-weight: 500;
+    margin:35px 0px 20px;
+}

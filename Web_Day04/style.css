@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: bisque;
+    display: flex;
+    /* flex thì direction sắp xếp mặc định là row sắp xếp theo2 trục main và cross */
+    /* trục main đi từ trái qua phải */
+    /* cross vuông góc trục main đi từ trên xuống dưới */
+    /* flex-direction:  flex-direction: row-reverse; đổi ngược lại hướng sắp xếp mặc định của flex */
+    flex-direction: row;
+    /* Sử dụng trục main gồm rất nhiều thuộc tính*/
+    justify-content: space-between;
+    /* Sử dụng trục cross */
+    align-items: flex-start;
+
+    /* Nếu tổng số item có tổng width> width của container */
+    flex-wrap:wrap;
+    height: 600px;
+   
+    /* Ít sử dụng nhưng cần test thêm, đoạn này, có vẻ liên quan flex-wrap:wrap */
+    /* align-content: flex-end; */
+    
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid black;
+    /* Cách 1 để cho 1 phần tử vào giữa, chỉ áp dụng nếu chỉ có 1 dòng */
+    /* text-align: center;   
+    line-height: 200px; */
+
+    /* Sử dụng item như container */
+    /* Cách 2 để cho 1 phần tử vào giữa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*  Tùy thuộc vào direction flex của container, nếu direction của flex là row thì nó tăng theo chiều width của container
+        Nếu direction của flex là coloumn thì nó tăng theo chiều height của container
+    */
+    flex-basis: 400px;
+    /* Theo % của width hoặc height của container, quá 100% width của container thì khi sử dụng flex-wrap:wrap, nội dung thừa ra sẽ xuống dòng */
+    flex-basis: 33.33%;
+}
