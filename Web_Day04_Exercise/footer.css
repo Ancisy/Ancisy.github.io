@@ -23,6 +23,7 @@ div.footer {
     padding: 3rem 0;
     margin: auto;
     display: flex;
+    
 }
 
 .footer h4 {
@@ -36,9 +37,7 @@ div.footer {
     flex: 25%;
 }
 
-h4,
-li,
-a {
+.footer * {
     color: rgb(255, 255, 255);
 }
 

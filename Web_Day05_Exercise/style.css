@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Menu Chính */
+.menu {
+    background-color: #f5f5f5;
+    width: 200px;
+    margin-left: 10px;
+    position: relative;
+}
+
+/* Menu Item */
+.menu-item p {
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 27px;
+    font-size: 13px;
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu-item p .icon {
+    display: none;
+}
+
+
+/* Menu Phụ Tầng 1 */
+.sub-menu,
+.sub-sub-menu {
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    left: 200px;
+    background-color: #f5f5f5;
+    height: 100%;
+    display: none;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+
+/* Hover */
+.menu-item p:hover .icon {
+    display: inline-block;
+    color: chocolate;
+}
+
+.menu-item:hover>p,
+.sub-menu-item:hover>p,
+.sub-sub-menu-item:hover>p {
+    color: #f57224;
+}
+
+.menu-item p:hover {
+    background-color: #eff0f5;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu-item:hover .sub-sub-menu {
+    display: block;
+}

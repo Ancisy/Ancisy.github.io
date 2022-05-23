@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bài Tập Web Ngày 4</title>
     <!-- Link google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +14,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link href="images/1.png" rel="shortcut icon" type="image/x-icon" />
 
     <!-- Link tự viết -->
+    <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./course.css">
     <link rel="stylesheet" href="./footer.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <div class="header">
+        <!-- logo -->
+        <div class="logo">
+            <img src="https://techmaster.vn/resources/image/logo-techmaster/white/white_200x74.png" alt="logo">
+        </div>
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="menu">
+                <ul>
+                    <li class="menu-item">LỘ TRÌNH <span><i class="fa-solid fa-caret-down"></i></span></i>
+                        <ul class="sub-menu">
+                            <li class="sub-menu-item">Web Front End + React.js</li>
+                            <li class="sub-menu-item">Java Spring Boot FullStack</li>
+                            <li class="sub-menu-item">DevOps</li>
+                            <li class="sub-menu-item">Amazon Web Service</li>
+                            <li class="sub-menu-item">Google Flutter</li>
+                            <li class="sub-menu-item">Apple iOS</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">DOANH NGHIỆP</li>
+                    <li class="menu-item">KHÓA HỌC <span><i class="fa-solid fa-caret-down"></i></span></i>
+                        <ul class="sub-menu">
+                            <li class="sub-menu-item">OnLab</li>
+                            <li class="sub-menu-item">Trực Tuyến</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">SẢN PHẨM HỌC VIÊN</li>
+                    <li class="menu-item">KHAI GIẢNG</li>
+                    <li class="menu-item">BLOG</li>
+                    <li class="menu-item">TRẢI NGHIỆM</li>
+                    <li class="menu-item">CHÚNG TÔI <span><i class="fa-solid fa-caret-down"></i></span>
+                        <ul class="sub-menu">
+                            <li class="sub-menu-item">Trung Tâm</li>
+                            <li class="sub-menu-item">Quy định chung</li>
+                            <li class="sub-menu-item">Giảng Viên</li>
+                            <li class="sub-menu-item">Hướng dẫn đăng ký học</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cart">
+                <span class="cart-icon"><i class="fa-solid fa-cart-arrow-down"></i></span>
+                <span class="cart-count">0</span>
+            </div>
+
+            <div class="avatar">
+                <img src="https://media.techmaster.vn/api/static/fHDMPBJG/nSQ3OpTm" alt="avatar">
+                <ul class="sub-menu">
+                    <li class="sub-menu-item">Lớp học của tôi</li>
+                    <li class="sub-menu-item">Lịch sử giao dịch</li>
+                    <li class="sub-menu-item">Hồ sơ cá nhân</li>
+                    <li class="sub-menu-item">Đăng xuất</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- All Courses -->
-    <div class="courses">
-        <div class="container-courses">
+    <div class="courses-container-fluid">
+        <div class="courses">
             <div class="courses-item">
                 <div class="card">
                     <!-- Chứa ảnh -->

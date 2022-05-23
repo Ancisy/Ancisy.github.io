@@ -1,0 +1,77 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* áp dụng cho toàn bộ ảnh */
+img {
+    max-width: 100%;
+    display: block;
+    margin:auto;
+}
+
+.header {
+    background-color: #007aff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    height: 60px;
+    position: relative;
+}
+/* style logo */
+.header-logo img {
+    width: 120px;
+}
+/* style menu */
+/* Sắp xếp header gồm 4 phần logo,sidebar,cart,avater theo chiều row của flex*/
+/* Sau khi sắp xếp theo chiều ngang ta lại sắp xếp theo chiều dọc, sử dụng align-items */
+.header-sidebar {
+    display: flex;
+    align-items: center;    
+}
+/* Chỉ thẳng vào con trực tiếp của sidebar-menu là thẻ ul ngay sau đó, ul ở đây đóng vai trò là container*/
+/* Sắp xếp các menu-item nằm trong side bar theo chiều row của flex  */
+.sidebar-menu > ul {
+    display: flex;
+}
+/* style shopping cart */
+
+/* style avatar */
+.avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.menu-item {
+    color: #fff;
+    font-size: 15px;
+    margin:0px 15px;
+    list-style-type: none;
+}
+
+.sub-menu{
+    position: absolute;
+    width: 200px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 35%);
+    border-radius: 4px;
+    color:  #212529 ;
+    list-style-type: none;
+    top:40px;
+}
+
+.sub-menu-item{
+    padding: 11px 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sub-menu-item:hover {
+    background-color: #c4c4c4;
+}

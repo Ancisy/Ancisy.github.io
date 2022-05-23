@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #30598C;
+    height: 60px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin:auto;
+}
+/* style logo techmaster */
+.header .logo img{
+    width: 120px;
+}
+
+/* style sidebar  */
+.menu-item {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 10px;
+    list-style-type: none;
+    height:60px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 0 31px;
+}
+
+.menu>ul {
+    display: flex;
+}
+/* Khi chuột bấm vào menu-item thì sub-menu chuyển từ none thành block */
+.menu-item:hover >.sub-menu {
+    display: block;
+}
+
+/* style avatar */
+.avatar img{
+    width: 31.99px;
+    height: 31.99px;
+    border-radius: 50%;
+}
+
+.avatar {
+    padding-left: 16px;
+}
+
+/* style cart icon */
+.cart-icon i {
+    font-size: 22px;
+}
+
+/* style caret */
+.menu-item span {
+    margin-left: 7px;
+}
+
+
+/* style drop-down menu */
+.sub-menu {
+    width: 200px;
+    color:  #212529 ;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%);
+    border-radius: 0.25rem;
+    position:absolute;
+    top:100%;
+    right: 0%;
+    /* Ẩn drop-down menu */
+    display:none;
+}
+
+.sub-menu-item {
+    padding: 11.2px 16px;
+    font-size: 14.4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sub-menu-item:hover {
+    background-color: #c4c4c4;
+    color: #fff;
+}
+
+/* Test thử */
+.sub-sub-menu {
+    position: absolute;
+    left:200px;
+    top:0px;
+}
+
+.sub-menu-item:hover .sub-sub-menu {
+    display: block;
+}

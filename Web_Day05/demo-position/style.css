@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width:200px;
+    height:100px;
+    background-color: chocolate;
+    /* Vị trí tương đối */
+    position: relative;
+    top:50px;
+    left:50px;
+    z-index: 1;
+}
+
+.parent {
+    width:500px;
+    height:500px;
+    background-color: bisque;
+    position: relative;
+    /* z-index chỉ có tác dụng khi thẻ có thuộc tính position */
+    z-index: 2;
+}
+
+.child {
+    width:100px;
+    height:100px;
+    background-color: brown;
+    /* Vị trí tuyệt đối với thẻ cha hoặc ông của nó */
+    /* Đi theo thẻ cha gần nhất có thuộc tính position, nếu toàn bộ thẻ cha không có thì nó sẽ theo body*/
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+
+.fixed-button {
+    /* Vị trí cố định */
+    padding: 30px 30px;
+    background-color: blue;
+    color: #fff;
+    border:none;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+}
+
+body {
+    height:2000px;
+}
+
+/* Cố phân biệt sticky và fixed */
+.sticky {
+    width: 100px;
+    height:100px;
+    background-color: chocolate;
+    position: sticky;
+    top:500px;
+    bottom: 200px;
+    left:100px;
+}
+

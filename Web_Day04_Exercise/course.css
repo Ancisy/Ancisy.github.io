@@ -60,19 +60,18 @@ img {
     color: #ffd600;
 }
 
-.container-courses {
-    width: 1320px;
-    padding: 3rem 15px;
+.courses {
+    max-width: 1320px;
+    padding: 0 15px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .courses-item {
-    margin: 20px;
+    padding: 3rem;
 }
-
 
 .info {
     display: flex;
