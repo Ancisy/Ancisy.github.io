@@ -41,6 +41,10 @@ ul {
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: #757575;
+}
 
 /* Menu Phụ Tầng 1 */
 .sub-menu,
@@ -62,8 +66,8 @@ ul {
 }
 
 .menu-item:hover>p,
-.sub-menu-item:hover>p,
-.sub-sub-menu-item:hover>p {
+.sub-menu-item:hover>p a,
+.sub-sub-menu-item:hover>p a {
     color: #f57224;
 }
 
@@ -78,3 +82,4 @@ ul {
 .sub-menu-item:hover .sub-sub-menu {
     display: block;
 }
+
