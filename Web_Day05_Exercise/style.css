@@ -23,12 +23,15 @@ ul {
     width: 200px;
     margin-left: 10px;
     position: relative;
-    
+
 }
+
 /* Căn cho đẹp */
-.menu, .sub-menu, .sub-sub-menu{
-    padding-top:8px;
-    padding-bottom:12px;
+.menu,
+.sub-menu,
+.sub-sub-menu {
+    padding-top: 8px;
+    padding-bottom: 12px;
 }
 
 /* Menu Item */
@@ -41,7 +44,7 @@ ul {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    
+
 }
 
 .menu-item p .icon {
@@ -89,4 +92,3 @@ a {
 .sub-menu-item:hover .sub-sub-menu {
     display: block;
 }
-
