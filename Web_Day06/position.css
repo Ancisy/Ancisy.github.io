@@ -1,0 +1,46 @@
+.box {
+    width:200px;
+    height: 200px;
+    background-color: chocolate;
+    transition-property: width, height;
+    transition-duration: 1s, 2s;
+    transition-delay: 1s; */
+    transition-timing-function: ease-in-out;
+    /* all: width và height, duration, timing-function, delay */
+    transition:all 1s ease-in-out 5s;
+}
+
+.box:hover {
+    width: 400px;
+    height: 400px;
+}
+
+.text {
+    background-color: aqua;
+    width:400px;
+    height: 220px;
+    padding: 20px;
+    position: relative;
+    margin:auto;
+}
+
+.text p{
+    position: relative;
+}
+
+.text:hover p{
+    left: 100%;
+    transform: translateX(200px);
+    display: none;
+}
+
+h2 {
+    position: relative;
+    transform: translateX(-400px);
+}
+
+h2:hover {
+    transform: translateX(0px);
+    opacity: 1;
+    transition-duration: 2s;
+}

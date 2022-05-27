@@ -1,0 +1,35 @@
+.box {
+    width:200px;
+    height: 200px;
+    background-color: chocolate;
+    transition-property: width, height;
+    transition-duration: 1s, 2s;
+    transition-delay: 1s; */
+    transition-timing-function: ease-in-out;
+    /* all: width và height, duration, timing-function, delay */
+    transition:all 1s ease-in-out 5s;
+}
+
+.box:hover {
+    width: 400px;
+    height: 400px;
+}
+
+.text {
+    background-color: aqua;
+    width:400px;
+    padding: 20px;
+    /* tránh trường hợp bấm vào phần làm mờ nhưng transform vẫn diễn ra */
+}
+
+.text p{
+    /* theo 2 trục X và Y, X dương nằm ngang tay phải, Y dương nằm dọc  */
+    transform: translateX(430px);
+    /* làm mờ, giá trị từ 0->1 */
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+.text:hover p{
+    transform: translateX(0);
+}
