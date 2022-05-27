@@ -56,9 +56,9 @@ body {
 }
 
 
-.card-body {
-    width:80%;
-}
+/* .card-body {
+    width:95%;
+} */
 
 /* Comments, time */
 .comments {
@@ -106,7 +106,7 @@ span {
 
 /* Hover */
 .card:hover .card-info{
-    transform: translateY(-30%);
+    transform: translateY(-50%);
     transition-duration: 0.5s;
     background-color:  #ffff;
 }
