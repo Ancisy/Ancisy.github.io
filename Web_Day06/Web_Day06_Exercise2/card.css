@@ -75,6 +75,10 @@ body {
     margin-left:15px;
 }
 
+span {
+    padding-right: 5px;
+}
+
 /* Tag */
 .photos-tag {
     position: absolute;
