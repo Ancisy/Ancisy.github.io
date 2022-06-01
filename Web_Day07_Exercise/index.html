@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Roboco Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/content.css">
+    <link rel="stylesheet" href="CSS/newpost.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <!-- menu -->
+            <div class="header-menu">
+                <!-- logo Chợ Tốt -->
+                <div class="header-logo"><img src="https://static.chotot.com/storage/default/transparent_logo.webp"
+                        alt="logo-cho-tot">
+                </div>
+                <!--  -->
+                <div class="header-menu-bar">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="#"><img src="./Images/2.png"><span>Trang Chủ</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"><img src="./Images/3.png"><span>Quản lý tin</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"><img src="./Images/4.png"><span>Chat</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"><img src="./Images/5.png"><span>Thông báo</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"><i class="fa-solid fa-ellipsis"></i><span>Thêm</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Thanh Tìm Kiếm -->
+                <div class="header-searching">
+                    <input type="text" name="" id="searching" placeholder="Tìm kiếm sản phẩm">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <!-- avatar -->
+                <div class="avatar">
+                    <img src="https://cdn.chotot.com/uac2/22632454" alt="avatar"><span>Ancisy</span>
+                </div>
+
+                <!-- Nút đăng bài -->
+                <div class="post-info-button">
+                    <i class="fa-solid fa-pen-to-square"></i><span>ĐĂNG TIN</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catergory -->
+        <div class="content">
+            <!-- Danh mục -->
+            <p class="heading">Khám phá danh mục</p>
+            <ul class="catergory">
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F1000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Bất Động Sản</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F2000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Xe Cộ</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F5000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Đồ Điện Tử</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F14000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Đồ gia dụng, nội thất, cây cảnh</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F4000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Giải Trí, Thể Thao, Sở Thích</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F11000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Mẹ và bé</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F6000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Dịch vụ, Du lịch</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F13000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Việc làm</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F12000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Thú cưng</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F7000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Đồ ăn, thực phẩm và các loại khác</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F9000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Tủ lạnh, máy lạnh, máy giặt</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F3000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Thời trang, Đồ dùng cá nhân</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2F8000.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Đồ dùng văn phòng</span>
+                    </a>
+                </li>
+                <li class="catergory-item">
+                    <a href="#">
+                        <img src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fstatic.chotot.com%2Fstorage%2Fchapy-pro%2Fnewcats%2Fv8%2Fcho-tang-mien-phi.png&w=256&q=95"
+                            alt="danh-muc-1">
+                        <span>Cho tặng miễn phí</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- New Posts -->
+        <div class="new-post">
+            <p class="heading">Tin Đăng Mới</p>
+            <div class="new-post-item">
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/T1qs6sor9X5vLY8ri2UU0z3SmO1mpBqgz8P2jFpd0qE/preset:listing/plain/961ad08e45b7a92152f552c350a6fcb7-2657332300606264916.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki a</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- Chứa ảnh -->
+                    <div class="post-image">
+                        <img src="https://cdn.chotot.com/YewhJ79dgwqXQASRWRzwkJj_fM2AgOWkVmIzdFc-_v8/preset:listing/plain/a34e89d3f60a42ab63a3e0fc5f744f18-2774950753911564361.jpg"
+                            alt="anh_cho_tot">
+                    </div>
+    
+                    <!-- Chứa nội dung -->
+                    <div class="post-content">
+                        <h2 class="title"><a href="#">Kawasaki Ninja400 N400 Ninja</a></h2>
+                        <div class="price"><span>109.000.000 đ</span></div>
+                        <div class="info">
+                            <p class="type"><span><i class="fa-solid fa-suitcase"></i></span>51 Giây Trước</p>
+                            <p class="rating">
+                                Vĩnh Long
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

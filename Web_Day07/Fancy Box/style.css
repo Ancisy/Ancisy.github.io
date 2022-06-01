@@ -1,0 +1,19 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unsafe;
+    width: 100%;
+}
+
+.images a{
+}

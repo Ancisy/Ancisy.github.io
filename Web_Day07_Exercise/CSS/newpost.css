@@ -1,0 +1,41 @@
+.new-post {
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 12px;
+    margin:auto;
+}
+
+.new-post-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding:12px;
+    flex-basis: 20%;
+}
+
+.title {
+    height: 80px;
+    padding-bottom: 8px;
+}
+
+.price {
+    color: rgb(208, 2, 27);
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 10px;
+    font-weight: 11.5px;
+    opacity: 50%;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
