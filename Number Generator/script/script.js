@@ -14,7 +14,7 @@ for (i = 0; i < numLength; i++) {
 }
 
 var numbers = document.getElementsByTagName("li");
-const months = ["2", "3", "4", "5", "6", "7", "8"];
+//const months = ["2", "3", "4", "5", "6", "7", "8"];
 
 
 function tick() {
@@ -23,7 +23,7 @@ function tick() {
 		amountNum++;
 		frameNum = 1;
 		for (i = numPosition; i < numLength; i++) {
-			numbers[i].innerHTML = months[Math.floor(Math.random() * months.length)];
+			numbers[i].innerHTML = Math.floor(Math.random() * 5)
 		}
 	}
 	if (amountNum > amount) {
